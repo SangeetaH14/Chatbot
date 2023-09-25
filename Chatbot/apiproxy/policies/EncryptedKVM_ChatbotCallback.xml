@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations name="EncryptedKVM_ChatbotCallback" mapIdentifier="EncryptedKVMChatbotCallback" enabled="true">
+    <Scope>environment</Scope>
+    <Get assignTo="private.secretValue">
+        <Key>
+            <Parameter ref="callbackEntryName"/>
+        </Key>
+    </Get>
+</KeyValueMapOperations>

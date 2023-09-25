@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations name="APIKVM.Api.Data.Retrieval" mapIdentifier="Chatbot" enabled="true">
+    <Scope>environment</Scope>
+    <Get assignTo="info_api">
+        <Key>
+            <Parameter>INFO_API</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="throttling_spike_arrest_app">
+        <Key>
+            <Parameter>THROTTLING_SPIKE_ARREST_APP</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="logging_ulff_enabled">
+        <Key>
+            <Parameter>LOGGING_ULFF_ENABLED</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="targets_endpoint_properties">
+        <Key>
+            <Parameter>TARGETS</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="hypermedia_standard">
+        <Key>
+            <Parameter>hypermedia_standard</Parameter>
+        </Key>
+    </Get>
+     <Get assignTo="http_status_api">
+        <Key>
+            <Parameter>HTTP_STATUS_API</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="sb_accept_header">
+        <Key>
+            <Parameter>sb_accept_header</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="environment_targets_endpoint_properties">
+        <Key>
+            <Parameter>ENV_TARGETS</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="env_target_valid_enviroment">
+        <Key>
+            <Parameter>env_target_valid_enviroment</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="Cache-Control">
+        <Key>
+            <Parameter>Cache-Control</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="Pragma">
+        <Key>
+            <Parameter>Pragma</Parameter>
+        </Key>
+    </Get>	
+    <Get assignTo="headersToMask">
+        <Key>
+            <Parameter>headersToMask</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="Chatbot_Encryption_Key">
+        <Key>
+            <Parameter>Chatbot_Encryption_Key</Parameter>
+        </Key>
+    </Get>	
+    <Get assignTo="Chatbot_Details_Cache_Expiry">
+        <Key>
+            <Parameter>CHATBOT_DETAILS_CACHE_EXPIRY</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="Key_Table">
+        <Key>
+            <Parameter>KEY_TABLE</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="validation">
+        <Key>
+            <Parameter>VALIDATION</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="isBotConfigTokensEnabled">
+        <Key>
+            <Parameter>isBotConfigTokensEnabled</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="isInstanaOn">
+        <Key>
+            <Parameter>isInstanaOn</Parameter>
+        </Key>
+    </Get>
+</KeyValueMapOperations>

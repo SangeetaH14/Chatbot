@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript async="false" continueOnError="false" enabled="true" timeLimit="200" name="JsCall.ValidateChatbotCallbackAttribute">
+    <DisplayName>JsCall.ValidateChatbotCallbackAttribute</DisplayName>
+    <ResourceURL>jsc://ValidateChatbotCallbackAttribute/invokePolicy.js</ResourceURL>
+	<IncludeURL>jsc://ValidateChatbotCallbackAttribute/ValidateChatbotCallbackAttribute.js</IncludeURL>
+</Javascript>

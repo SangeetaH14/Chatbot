@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout name="ServiceCallout.InternalJWE" async="false" continueOnError="false" enabled="true">
+    <DisplayName>ServiceCallout.InternalJWE</DisplayName>
+    <Request variable="botDetailsInputRequest" clearPayload="false">
+        <Set>
+            <Headers>
+                <Header name="cipher-profile">{Chatbot_Encryption_Key}</Header> 
+                <Header name="Content-Type">"application/json"</Header>
+            </Headers>
+            <Verb>POST</Verb>
+            <Payload>{botDetailsInput}</Payload>
+        </Set>
+    </Request>
+    <LocalTargetConnection>
+        <Path>/v1/internal-jwe/encrypt</Path>
+        <Properties>
+            <Property name="use.proxy">false</Property>
+        </Properties>
+    </LocalTargetConnection>
+    <Response>JWEResponse</Response>   
+</ServiceCallout>

@@ -1,0 +1,18 @@
+<KeyValueMapOperations name="KVM.ReadHomeDocumentVariables" mapIdentifier="Chatbot" enabled="true">
+	<Scope>environment</Scope>
+	<Get assignTo="home_doc_rules">
+        <Key>
+            <Parameter>HOME_DOC_RULES</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="home_doc_definitions">
+        <Key>
+            <Parameter>HOME_DOC_DEFINITIONS</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="home_doc_expiry_in_seconds">
+        <Key>
+            <Parameter>HOME_DOC_EXPIRY_IN_SECONDS</Parameter>
+        </Key>
+    </Get> 
+</KeyValueMapOperations>

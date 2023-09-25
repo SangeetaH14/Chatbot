@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache enabled="true" continueOnError="false" async="false" name="PopulateCache.HomeDocumentData">
+    <CacheResource>dxl_chatbot_cache</CacheResource>
+    <Source>ETagPayload</Source>
+    <Scope>Exclusive</Scope>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment ref = "ETagHeader"/>
+        <KeyFragment ref = "sortedScopes"/>
+    </CacheKey>
+    <ExpirySettings>
+        <TimeoutInSec ref = "home_doc_expiry_in_seconds"></TimeoutInSec>
+    </ExpirySettings>
+</PopulateCache>
+

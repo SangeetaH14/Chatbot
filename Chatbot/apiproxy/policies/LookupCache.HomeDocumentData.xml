@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LookupCache enabled="true" continueOnError="false" async="false" name="LookupCache.HomeDocumentData">
+    <CacheResource>dxl_chatbot_cache</CacheResource>
+    <AssignTo>homeDocumentCachedData</AssignTo>
+    <Scope>Exclusive</Scope>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment ref = "request.header.If-None-Match"/>
+        <KeyFragment ref = "sortedScopes"/>
+    </CacheKey>
+</LookupCache>

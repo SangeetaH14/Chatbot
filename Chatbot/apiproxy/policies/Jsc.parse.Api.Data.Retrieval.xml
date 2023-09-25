@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript timeLimit="0" enabled="true" continueOnError="false" async="false" name="Jsc.parse.Api.Data.Retrieval">
+    <DisplayName>Jsc.parse.Api.Data.Retrieval</DisplayName>
+    <ResourceURL>jsc://ParseApiDataRetrieval/invokePolicy.js</ResourceURL>
+    <IncludeURL>jsc://ParseApiDataRetrieval/ParseApiDataRetrieval.js</IncludeURL>
+</Javascript>

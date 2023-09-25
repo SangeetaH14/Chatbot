@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractBotDetails">
+    <DisplayName>ExtractBotDetails</DisplayName>
+    <Source clearPayload="false">AccessEntity.AccessEntityDevApp</Source>
+    <XMLPayload stopPayloadProcessing="false">
+        <Variable name="botDetails" type="string">
+            <XPath>/App/Attributes/Attribute[Name='CHATBOT_APP_CONFIGURATION']/Value</XPath>
+        </Variable>
+        <Variable name="callbackDetails" type="string">
+            <XPath>/App/Attributes/Attribute[Name='CHATBOT_CALLBACK_CONFIGURATION']/Value</XPath>
+        </Variable>
+    </XMLPayload>
+     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</ExtractVariables>

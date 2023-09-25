@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations name="EncryptedKVM_Chatbot" mapIdentifier="EncryptedKVMChatbot" enabled="true">
+    <Scope>environment</Scope>
+    <Get assignTo="private.secretConfig">
+        <Key>
+            <Parameter ref="vaultEntryName"/>
+        </Key>
+    </Get>
+</KeyValueMapOperations>

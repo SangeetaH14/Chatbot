@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript async="false" continueOnError="false" enabled="true" timeLimit="200" name="JsCall.BotNameValidation">
+    <DisplayName>JsCall.BotNameValidation</DisplayName>
+    <ResourceURL>jsc://BotNameValidation/invokePolicy.js</ResourceURL>
+	<IncludeURL>jsc://BotNameValidation/BotNameValidation.js</IncludeURL>
+</Javascript>

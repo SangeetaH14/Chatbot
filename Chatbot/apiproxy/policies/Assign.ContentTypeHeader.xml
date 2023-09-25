@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign.ContentTypeHeader">
+    <DisplayName>Assign.ContentTypeHeader</DisplayName>
+    <AssignTo createNew="false" type="response">response</AssignTo>
+    <Set>
+        <Headers>
+            <Header name="Content-Type">application/vnd.vodafone.a42+json;charset=UTF-8</Header>
+        </Headers>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</AssignMessage>

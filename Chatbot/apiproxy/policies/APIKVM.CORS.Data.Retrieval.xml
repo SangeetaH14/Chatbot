@@ -1,0 +1,33 @@
+<KeyValueMapOperations name="APIKVM.CORS.Data.Retrieval" mapIdentifier="Chatbot" enabled="true">
+	<Scope>environment</Scope>
+	<Get assignTo="cors_allowed_origins">
+        <Key>
+            <Parameter>CORS_ALLOWED_ORIGINS</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="cors_allowed_methods">
+        <Key>
+            <Parameter>CORS_ALLOWED_METHODS</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="cors_allowed_headers">
+        <Key>
+            <Parameter>CORS_ALLOWED_HEADERS</Parameter>
+        </Key>
+    </Get>
+     <Get assignTo="cors_expose_headers">
+        <Key>
+            <Parameter>CORS_EXPOSE_HEADERS</Parameter>
+        </Key>
+    </Get>
+     <Get assignTo="cors_allow_credentials">
+        <Key>
+            <Parameter>CORS_ALLOW_CREDENTIALS</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="cors_max_age">
+        <Key>
+            <Parameter>CORS_MAX_AGE</Parameter>
+        </Key>
+    </Get>
+</KeyValueMapOperations>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="SaveTargetKeyInCache">
+    <DisplayName>SaveTargetKeyInCache</DisplayName>
+    <CacheResource>chatbot_targetKey_cache</CacheResource>
+    <CacheKey>
+        <KeyFragment ref="developer.app.id"/>
+        <KeyFragment ref="botInstanceId"/>
+    </CacheKey>
+    <Scope>Global</Scope>
+    <ExpirySettings>
+        <TimeoutInSec ref="Chatbot_Details_Cache_Expiry"/>
+    </ExpirySettings>
+    <Source>targetKey</Source>
+</PopulateCache>

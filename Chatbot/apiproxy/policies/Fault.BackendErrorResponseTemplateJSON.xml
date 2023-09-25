@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage enabled="true" continueOnError="false" async="false" name="Fault.BackendErrorResponseTemplateJSON">
+    <FaultRules/>
+    <Properties/>	
+	<Set>  
+		<Headers>
+			<Header name="Content-Type">application/vnd.vodafone.a42+json</Header>
+			<Header name="vf-trace-transaction-id">{vf.trace.transaction.id}</Header>
+			<Header name="Cache-Control">no-store</Header>
+			<Header name="Pragma">no-cache</Header>
+		</Headers>
+     	<Payload variablePrefix="%" variableSuffix="#">
+			{
+					"links": {
+						"help": {
+							"href": "%api_help_link#"
+						}
+					},
+					 "message":"%errorMessage#",
+	                 "description":"%errorDescription#",
+	                 "error":"%errorCode#",
+					 "transactionId": "%vf.trace.transaction.id#"
+				 }
+		</Payload>
+        <StatusCode>{statusCode}</StatusCode>
+        <ReasonPhrase>{reasonPhrase}</ReasonPhrase>
+    </Set>
+</AssignMessage>

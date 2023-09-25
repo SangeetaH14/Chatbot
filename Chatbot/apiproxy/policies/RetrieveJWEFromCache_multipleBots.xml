@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LookupCache enabled="true" continueOnError="false" async="false" name="RetrieveJWEFromCache_multipleBots">
+    <CacheResource>chatbot_details_multipleBots</CacheResource>
+    <AssignTo>botDetailsJWE_multipleBots</AssignTo>
+    <Scope>Global</Scope>
+    <CacheKey>
+        <KeyFragment ref="developer.app.id"/>
+        <KeyFragment ref="request.header.botName"/>
+        <!-- <KeyFragment ref="currentFlowName"/> -->
+    </CacheKey>
+</LookupCache>

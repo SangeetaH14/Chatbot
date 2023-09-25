@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="true" enabled="true" name="ExtractConversationId">
+    <DisplayName>ExtractConversationId</DisplayName>
+    <Source clearPayload="false">message.content</Source>
+    <JSONPayload>
+      <Variable name="conversationId">
+         <JSONPath>$.conversation.identifier.id</JSONPath>
+      </Variable>
+   </JSONPayload>
+     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</ExtractVariables>
